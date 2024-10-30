@@ -1,0 +1,64 @@
+/* Reset basic styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Center ad in browser */
+html, body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #222;
+}
+
+/* Ad container styling */
+.ad-container {
+	width: 336px;
+	height: 280px;
+	background: linear-gradient(135deg, #ff416c, #ff4b2b);
+	color: #fff;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Title styling */
+.ad-content h1 {
+	font-size: 24px;
+	margin: 15px 0;
+}
+
+/* Image styling */
+.ad-content img {
+	width: 30%;
+	height: auto;
+	margin: 10px 0;
+	border-radius: 8px;
+}
+
+/* Tagline styling */
+.ad-content p {
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+/* CTA button styling */
+.cta-button {
+	display: inline-block;
+	padding: 10px 20px;
+	margin-top: 10px;
+	background-color: #222;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+	background-color: #d652ed;
+}
